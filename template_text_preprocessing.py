@@ -9,7 +9,7 @@ def preprocess(text):
     """
     text = text.lower()
     doc = word_tokenize(text)
-    doc = [word for word in doc if word not in stopwords]
+    doc = [word for word in doc if word not in stopwords.words()]
     doc = [word for word in doc if word.isalpha()]
     return doc
 
