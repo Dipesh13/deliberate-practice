@@ -18,3 +18,4 @@ with open('../doc-classification/football/zlatan-ibrahimovics-red-card-la-galaxy
 # use this for recommendation :
 # to do 1) find top tokens for each class then calculate score of new article wrt each class and print max score
 print(token1.similarity(token2))
+# print(token1.vector)
