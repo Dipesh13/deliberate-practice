@@ -223,8 +223,7 @@ dict_new = {v:k for k, v in d.items()}
 
 # Set Comprehensions
 new_set = {func(vars) for vars in iterable}
-set_new = {word for word in hamlet if is_palindrome(word.lower())}
-
+set_new = {word for word in hamlet if is_palindrome(word.lower()
 # Comprehensions as Higher-Level Transformations
 # Usually, data structures focus on individual elements.
 # Comprehensions represent abstract transformations. Don't say how to build something, just what you want.
